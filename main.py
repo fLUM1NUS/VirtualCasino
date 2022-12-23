@@ -5,7 +5,7 @@ if __name__ == '__main__':
     pygame.init()
     pygame.display.set_caption("Виртуальное казино")  # Название приложения
     size = width, height = 1600, 900  # размеры окна
-    screen = pygame.display.set_mode(size)
+    screen = pygame.display.set_mode((size), pygame.FULLSCREEN)
     programIcon = pygame.image.load('res/icon.png')  # Иконка приложения
     pygame.display.set_icon(programIcon)
     pygame.display.flip()
