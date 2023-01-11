@@ -28,9 +28,6 @@ class MenuWindow(QMainWindow):
         self.shopBtn.clicked.connect(self.go_shop)
         # self.quitBtn.clicked.connect(self.go_pygame)
 
-    def a1(self):
-        pass
-    
     def go_shop(self):
         self.window = ShopWindow()
         self.window.showFullScreen()
@@ -82,4 +79,4 @@ if __name__ == '__main__':
 
 
 
-
+# commit1
